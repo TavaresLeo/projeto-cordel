@@ -27,17 +27,19 @@ header {
     background-color: black;
     color: white;
     text-align: center;
+    height: 300px;
 }
 
 header h1 {
-    padding-top: 50px;
+    padding-top: 70px;
     text-transform: small-caps;
     font-family: var(--fonte2);
     font-size: 4em;
 }
 
 header p {
-    padding-bottom: 50px;
+    padding-top: 100px;
+    
 }
 
 
@@ -106,6 +108,10 @@ footer {
 
     html, body {
         font-family: var(--fonte1)
+    }
+
+    header {
+        padding: 20px;
     }
 
     header h1 {
