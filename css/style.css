@@ -47,6 +47,7 @@ header a, footer a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.4em;
 }
 
 header a:hover, footer a:hover {
@@ -90,11 +91,17 @@ section#img01 {
     background-image: url('../imagens/background001.jpg');
     background-position: right center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 section#img02 {
     background-image: url('../imagens/background002.jpg');
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 footer {
